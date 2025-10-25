@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/login1.css">
+</head>
+<body>
+     <header>
+     <div class="header-top"> 
+       <div class="header-top-left">
+       <p>Free Shipping Over $100 & Free Returns</p>
+       </div>
+       <div class="header-top-right">
+        <P>Hotline:(888) 4344 6000-(888) 1338 8193</P>
+        <p>United States (USD $)</p>
+       </div>
+     </div>
+     <hr>
+     <div class="header">
+       <div class="logo">
+        <img src="imag/imgi_1_header-logo.png" alt="">
+       </div>
+       <div class="input-search">
+        <input type="text" />
+        <button><img src="imag\\download (29).svg" ></button>
+       </div>
+         <div class="user-transation">
+           <a href="#">
+            <div class="transation">
+              <img src="imag/download (47).svg" >
+              <!-- <span>Favourite <br />
+                Wishlist</span> -->
+            </div>
+          </a>
+          <a href="#">
+            <div class="transation">
+              <img src="imag/download (46).svg" >
+              <!-- <span>Favourite <br />
+                Wishlist</span> -->
+            </div>
+          </a>
+          <div class="a">
+          <a href="#">
+            <div class="transation" onclick="toggleDiv()">
+              <img src="imag/download (48).svg" >
+              <span>Log In <br />
+                My Account</span>
+            </div>
+            <div id="myDiv" style=" display: none; background-color: #eee; padding: 10px; margin-top:10px ;position: absolute;"> 
+              <a href="login1.html" style="text-decoration: none; color: #000;">login</a>
+              <a href="regster1.html" style="text-decoration: none; color: #000;">regster</a>
+
+            </div>
+             </div>
+          </a>
+          <a href="cards.html">
+            <div class="transation">
+              <img src="imag/download (24).svg" alt=""> 
+              <div class="cart-total">
+                <span>4</span>
+                <span>$175.00</span>
+              </div>
+            </div>
+          </a>
+        </div>
+     </div>
+     <!-- <hr> -->
+     <div class="header-buttom"> 
+      <div class="header-buttom-icon">
+       <img src="imag/download (23).svg" alt="">
+            <a href="">SHOP CATEGORIES</a>
+            <i class="fa-solid fa-angle-down"></i>
+      </div>
+      <div class="with-line"></div> 
+        <ul>
+          <li>
+        <a href="#"> HOME </a>
+        <i class="fa-solid fa-angle-down"></i>
+        </li>
+        <li>
+        <a href="#"> OUR STORE </a>
+        <i class="fa-solid fa-angle-down"></i>
+        
+        </li>
+        <li>
+        <a href="#"> SPACIAL SALE</a>
+        <i class="fa-solid fa-angle-down"></i>
+        </li>
+        <li>
+        <a href="#"> CATEGORIES  </a>
+        <i class="fa-solid fa-angle-down"></i>
+        </li>
+        <li>
+        <a href="#"> Top  DEALS</a>
+        <i class="fa-solid fa-angle-down"></i>
+        </li>
+        <li>
+        <a href="#"> ElEMENTS</a>
+        <i class="fa-solid fa-angle-down"></i>
+        </li>
+        
+        </ul>
+        <div class="offcanvas">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li>
+                <a href="#">Categories</a>
+                <i class="fa-solid fa-angle-down"></i>
+                <!-- <div class="inner-Category">
+  
+                </div> -->
+              </li>
+              <li><a href="#">Blogs</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        <div class="our-store">
+           <!-- <ul>
+            <li> Appliances</li>
+            <li> Scan Printers</li>
+           </ul> -->
+        </div>
+     </div>
+     
+    </header>
+    <nav class="nav-login">
+<ul>
+  <li><a href="index.html">Home</a></li>
+</ul>
+</nav>
+ <main>
+     <section id="form">
+    <form class="from">
+        <input id="UserName" type="text" placeholder="Enter name" required>
+        <input id="UserEmail" type="email" placeholder="Enter Email" required>
+        <input id="UserPass" type="password" placeholder="Enter Password" required>
+        <input id="UserRePass" type="password" placeholder="Conferm password" required>
+        <input id="UserPhone" type="text" placeholder="Enter phone" required>
+        <button id="btn">Sign in</button>
+  
+    </form>
+    
+</section>
+ </main>
+
+ <footer>
+      <div class="footer-top">
+         <div class="send"> 
+         <div class="send-img">
+          <img src="imag/imgi_103_send_244x244@2x.png" ></div>
+         <div class="send-info"> 
+          <h2>Sign Up For Our Discounts</h2></div>
+         </div>
+         <div class="input-buttom">
+             <input type="text" placeholder="Enter Address">
+             <button>  Subscribe </button>
+         </div>
+      </div>
+      <hr>
+      <div class="footer-buttom">
+        <div class="address">
+           <ul>
+            <li id="contact">
+             
+              <h2>Contact Info</h2>
+              <i class="fa-solid fa-angle-down"></i>
+              
+              <ul id="contact-info">
+                <li>
+                99 New Theme St. XY, USA 12345, Beside the Sun point land
+              </li>
+              <li>+00 123-456-789</li>
+              <li>demo@example.com</li> 
+              <li>
+                <div class="footer-buttom-icon">
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-pinterest-p"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+              </li>
+            </ul>
+              </li>
+           </ul>
+           <ul>
+            <li id="store">
+              <h2>Store Policy</h2>
+              <i class="fa-solid fa-angle-down"></i>
+              <ul id="store-policy">
+              <li>Information</li>
+              <li>Privacy</li>
+              <li>Refund</li>
+              <li>Shipping</li>
+              <li>Service</li>
+              </ul>
+            </li>
+           </ul>
+           <ul>
+            <li id="quick">
+              <h2>Quick links</h2>
+              <i class="fa-solid fa-angle-down"></i>
+              <ul id="quick-links">
+              <li>About Us</li>
+              <li>Contact</li>
+              <li>FAQs</li>
+              <li>Compare</li>
+              <li>Wishlist</li>
+              </ul>
+            </li>
+           </ul>
+           <ul>
+            <li id="collection">
+              <h2>Collection</h2>
+              <i class="fa-solid fa-angle-down"></i>
+              <ul id="collection-list">
+              <li>Our Store</li>
+              <li>Appliances</li>
+              <li>Speakers</li>
+              <li>Watches</li>
+              <li>Laptops</li>
+              </ul>
+            </li>
+           </ul>
+           <ul>
+             <li id="app">
+               <h2>Our App</h2>
+               <i class="fa-solid fa-angle-down"></i>
+               <ul id="our-app">
+               <li>Download our Apps and get extra 15% Discount on your first Order…!</li>
+               <li style="display: flex; ">  
+                 <img src="imag/imgi_104_app-icon-01.png"  style="width: 50%;">
+                 <img src="imag/imgi_105_app-icon-02.png" style="width: 50%; ">
+                </li>
+                </ul>
+              </li>
+           </ul>
+      </div>
+        
+      </div>
+      <hr>
+      <div class="footer">
+        <div class="footer-info">
+       <p>Powered by Shopify © 2025, </p>
+       <p>Digitic2 (Password : 9)</p>
+      </div>
+      <div class="footer-icon">
+          <img src="imag/download (54).svg" >
+          <img src="imag/download (53).svg" >
+          <img src="imag/download (52).svg" >
+          <img src="imag/download (51).svg" >
+          <img src="imag/download (50).svg" >
+          <img src="imag/download (49).svg" >
+      </div>
+      </div>
+      </footer>
+
+      <script src="js/regest.js"></script>
+      <script src="js/js1.js"></script>
+</body>
+</html>

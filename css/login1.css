@@ -1,0 +1,91 @@
+@import url(test.css);
+
+#login , #reset{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(185, 184, 184);
+}
+.nav-login{
+
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+ 
+.nav-login ul li{
+  display: flex;
+  flex-direction: row;
+ list-style-type: none;
+  padding: 30px 0px 0px;
+}
+ .nav-login ul li a{
+     text-decoration: none;
+     color: #000;
+ }
+ form , #reset form{
+  background-color: rgb(185, 184, 184);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+   margin: 0 auto;
+   padding:30px 0px;
+   z-index: 9999999;
+}
+form,#reset form{
+  text-align: center;
+  padding: 60px;
+}
+ form input{
+    padding: 10px;
+    margin: 10px 0px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+#lin{
+   text-decoration: none;
+     color: #000;
+     padding: 20px 0px;
+     cursor: pointer;
+}
+ form button{
+  width: 20%;
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+ form .no-acount{
+   text-align: center;
+   padding: 20px;
+   text-decoration: none;
+   color: #000;
+   cursor: pointer;
+}
+#reset{
+  display:none;
+}
+
+form input{
+    padding: 10px;
+    margin: 10px 0px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+ form button{
+   width: 20%;
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+#reset form a{
+   text-align: center;
+   padding: 20px;
+   text-decoration: none;
+   color: #000;
+   cursor: pointer;
+}
